@@ -1,0 +1,111 @@
+html,body{
+  height: 100%;
+}
+#menu li a button { /* Green */
+    border: none;
+    background: #0074D9;
+    padding: 20px 40px;
+    font-size: 20px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+body {
+    margin: 0; 
+    padding: 0px;
+    background: #FFFFFF;
+    font-family: 'Roboto';
+    font-size:12pt;
+}
+h1{
+  margin: 0;
+  padding: 0;
+  color: #404040;
+}
+header { 
+  background: rgb(3, 220, 248);
+  overflow: hidden;
+}
+#top-header{
+  text-align: center;
+  height: 0;
+}
+footer {
+overflow: hidden;
+}
+#logo{
+  float: left;
+  padding: 0;
+  margin: 0;
+  height:120px;
+  width: 30%;
+}
+#logo img{
+  width: 40%;
+  float: left;
+  padding: 0px 50px;
+}
+.container{    
+  /* Set width of container to 
+      1200px and align center */
+  margin: 0px auto;
+  width: 1200px;
+}
+#menu{
+  float: right;
+  width: 60%;
+  height: 100%;
+  margin: 0px;
+}
+   
+#menu ul{
+  text-align: center;
+  float: right;
+  margin: none;
+  background: #0074D9;
+}
+   
+#menu li{
+  display: inline-block;
+  padding: none;
+  margin: none;
+}
+   
+#menu li a, #menu li span{
+  display: inline-block;
+  padding: 0em 1.5em;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+   
+#menu li a{
+       
+  color: #FFF;
+}
+   
+#menu li:hover a, #menu li span{
+  background: #FFF;
+  color: #0074D9;
+  border-left: 1px solid #0074D9;
+  text-decoration: none;
+}
+#image{
+  top: 10px;
+  position: relative;
+}
+#image img{
+  width: 100%;
+  margin: none;
+  padding: none;
+}
+#image-text{ 
+  position: absolute; 
+  top: 60%; 
+  left: 60%; 
+  font-family: 'Roboto'; 
+  color: white; 
+  transform: translate(-30%, -30%); 
+  text-align: center; 
+} 
