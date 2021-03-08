@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <script src="map.js"></script>
+    <style>
+          /* Always set the map height explicitly to define the size of the div
+           * element that contains the map. */
+          #map {
+            height: 100%;
+          }
+          /* Optional: Makes the sample page fill the window. */
+          html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+          }
+          div#sidebar {
+            width: 50%;
+            float: left;
+            margin-left: 10px;
+            margin-bottom: 10px;
+          }
+          h1{
+            margin-left: 20px;
+          }
+        </style>
+</head>
+<body>
+  <h1>Travel</h1>
+  <div id="sidebar">
+    <button id="home" onclick="gotoHome()">home</button>
+    <button id="liu" onclick="gotoBrooklyn()">Brooklyn</button>
+    <button id="BruceLee" onclick="gotoStatueBLee()">Statue Bruce Lee</button>
+    <button id="hollywood" onclick="gotoHollywood()">Hollywood</button>
+    <p id="description"></p>
+    <p id="image"></p>
+</div>
+  <div id="map" style= "width:400px; height:400px; border: 2px solid black;"></div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBz7aYDdk3XuGMKl1Dt2bGgj_GLxLyXyKg&callback=initMap"
+    async defer></script>
+
+</body>
+</html>

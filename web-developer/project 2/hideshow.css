@@ -1,0 +1,35 @@
+
+h1{
+  font-family:"Montserrat",sans-serif;
+  font-weight: 700;
+  color: #f33;
+  background:#e3ccf3;
+  border:5px solid #791DB8;
+  margin-right:
+}
+p{
+  background-position: left;
+  font-size: 150%;
+  font-family:"Major+Mono+Display",serif;
+
+}
+body {
+  background-color: lightblue;
+  max-width: 600px;
+  margin: auto;
+}
+div.answer {
+  border: 2px solid blue;
+  background: #FC6C85;
+  padding: 1ex 1em;
+}
+div.answer > * {
+  display: none;
+}
+div.answer > :first-child {
+  display: block;
+}
+
+.hideshow {
+  cursor: pointer;
+}
