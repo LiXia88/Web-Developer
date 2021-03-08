@@ -1,15 +1,7 @@
 html,body{
   height: 100%;
 }
-#menu li a button { /* Green */
-    border: none;
-    background: #0074D9;
-    padding: 20px 40px;
-    font-size: 20px ;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
+
 body {
     margin: 0; 
     padding: 0px;
@@ -23,7 +15,7 @@ h1{
   color: #404040;
 }
 header { 
-  background: rgb(3, 220, 248);
+  background:none;
   overflow: hidden;
 }
 #top-header{
@@ -62,7 +54,7 @@ overflow: hidden;
   text-align: center;
   float: right;
   margin: none;
-  background: #0074D9;
+  background: none;
 }
    
 #menu li{
@@ -82,18 +74,17 @@ overflow: hidden;
    
 #menu li a{
        
-  color: #FFF;
+  color: black;
 }
    
 #menu li:hover a, #menu li span{
-  background: #FFF;
-  color: #0074D9;
-  border-left: 1px solid #0074D9;
+  background: black;
+  color:white;
+  border-left: 1px solid white;
   text-decoration: none;
 }
 #image{
   top: 10px;
-  position: relative;
 }
 #image img{
   width: 100%;
