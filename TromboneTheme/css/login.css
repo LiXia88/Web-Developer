@@ -1,0 +1,62 @@
+html{
+    font-size:62.5%;
+}
+
+body{
+    line-height: 1.1;
+    font-family: 'Inter', Arial , Helvetica, sans-serif;
+    font-size: 1.5rem;
+    background: #eee;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    word-spacing: 0.5rem;
+    color: #6c757d;
+}
+
+div{
+    margin: 1rem 0;
+}
+
+input[type="text"],
+input[type="password"]{
+    border: 1px solid #ced4da;
+    margin-bottom: 0.5rem;
+    transition: border .15s, box-shadow .15s;
+}
+
+input[type='text']:focus,
+input[type='password']:focus{
+    border-color: #f1c40f;
+    outline: 0;
+    box-shadow: 0 0 0 4px #b9d3fa;
+}
+
+.btn{
+    background: #f1c40f;
+    outline: 0;
+    border-style: none;
+    border-radius: 30px;    
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: orange;
+}
+
+.user-login{
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+.form-control, .btn{
+   box-sizing: border-box; 
+   padding: 1rem 1.5rem;
+   width: 100%;
+}

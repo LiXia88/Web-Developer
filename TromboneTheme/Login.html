@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://kit.fontawesome.com/8458d8ed8b.js" crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form class="user-login">
+        <h2>Please sign in</h2>
+        <div>
+            <input class="form-control"
+                   type="text" 
+                   placeholder="Email address"
+                   maxlength="255"
+                   minlength="5"
+                   autofocus
+            />
+        </div>  
+        <div>
+            <input class="form-control" 
+                   id="password"
+                   type="password" 
+                   placeholder="Password"
+                   maxlength="20"
+                   minlength="8"
+            />
+        </div>
+            <div>
+                <input type="checkbox" onclick="myFunction()"> Show Password
+            </div>
+            <div>
+                <input id= "checkbox" type="checkbox"> Remember me
+            </div>
+            <button class="btn" type="submit">
+                <i class="fa-solid fa-arrow-right"></i>
+                Sign in
+            </button>
+            <p>Copyright &copy; 2022</p>
+
+    </form>
+    
+</body>
+</html>
